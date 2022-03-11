@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(225, 100%, 98%);
+}
+
+.attribution{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+
+.container{
+    background: url(./images/pattern-background-desktop.svg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+    width: 100%;
+    height: 60vh;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container{
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px 20px;
+    height: 700px;
+    width: 450px;
+    box-shadow: 1px 0 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+.sub-container img{
+    border-radius: 20px 20px 0 0;
+}
+
+.summary{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: hsl(223, 47%, 23%);
+
+}
+
+
+.summary-description{
+    text-align: center;
+    margin: 30px 70px 0px 70px;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.annual-plan-container{
+    margin: 10px 30px 0 30px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* align-items: center; */
+}
+
+.image-and-aunual-plan{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.annual-plan{
+    display: flex;
+    align-items: center;
+}
+
+.annual-plan img{
+    width: 50px;
+    height: 50px;
+}
+
+.annual-plan-h1{
+    font-size: 17px;
+    color: hsl(223, 47%, 23%);
+}
+
+.price-in-a-year{
+font-size: 15px;
+color: hsl(224, 23%, 55%);
+font-family: monospace;
+}
+
+.content-explanation{
+    margin-left: 9px;
+}
+
+.change a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.change{
+    background: transparent;
+    color: hsl(245, 75%, 52%);
+}
+
+.general-button{
+    text-align: center;
+}
+
+
+.proceed-to-payment{
+    width: 87%;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 1px 5px 10px 0 rgba(3, 38, 238, 0.5);
+}
+
+.cancel{
+    margin-top: 20px;
+    width: 87%;
+    background-color: transparent;
+    height: 40px;
+/* background-color: green; */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+color: hsl(224, 23%, 55%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
